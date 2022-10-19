@@ -27,8 +27,12 @@ import TableBuilder from './TableBuilder';
 import MapBuilder from './MapBuilder';
 import CounterBuilder from './CounterBuilder';
 import LegendBuilder from './LegendBuilder';
+import RouteMapBuilder from "./RouteMapBuilder";
+/// import RouteChartBuilder from "./RouteChartBuilder";
 import WidgetTypeSelector from './WidgetTypeSelector';
 const Builders = {
+    routeMap: RouteMapBuilder,
+    /// routeChart: RouteChartBuilder,
     chart: ChartBuilder,
     text: TextBuilder,
     table: TableBuilder,
